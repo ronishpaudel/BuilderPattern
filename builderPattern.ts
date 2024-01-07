@@ -31,7 +31,6 @@ const buildGreeting = function (name: string): TrackerInject {
         const a: string = `Bye${byeMsg} ${name}`;
         trackerArg.sayBye.push(a);
         trackerArg.all.push(a);
-
         return this;
       },
       generate: function (): string {
